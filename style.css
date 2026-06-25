@@ -1,0 +1,29 @@
+body{
+    background-image: url("images/fondo.png");
+    background-size: cover;
+}
+
+
+.boton-registro {
+    background-color: rgb(76, 22, 126) !important; /* el !important es para sobreescribir el color de boostrap y darle prioridad al que modifique*/
+    border-color: rgb(76, 22, 126) !important;
+    transition: 0.3s;
+}
+
+.boton-registro:hover{
+    transform: scale(1.05);
+}
+
+
+
+.boton-ingresar {
+    background-color: rgb(76, 22, 126) !important; 
+    border-color: rgb(76, 22, 126) !important;
+    transition: 0.3s;
+}
+
+
+.boton-ingresar:hover{
+    transform: scale(1.05);
+    
+}
